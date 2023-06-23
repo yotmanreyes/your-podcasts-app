@@ -90,3 +90,24 @@ li {
   width: 300px;
   max-width: 400px;
 }
+
+.auth-button{
+  display:flex;
+  align-items:center;
+  position:absolute;
+  top:115%;
+  left:50%;
+  transform:translate(-50%, -100%);
+  padding:10px 20px;
+  background:#111;
+  border:3px solid #fff;
+  color:#fff;
+  border-radius:20px;
+  font-size:1.2em;
+}
+
+.auth-button__icon{
+  width:30px;
+  height:30px;
+  margin-left:15px;
+}
